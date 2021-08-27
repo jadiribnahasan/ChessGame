@@ -1,17 +1,5 @@
-# Program-Your-Own-Chess
-
-## Purpose
-Students will apply many of the concepts they've already learned in order to add on to my code and create a fully-functional chess game.
-
-## Current Behavior of the Project
-The user interface is already created. There is a board and 32 pieces. Feel free to replace the piece images with your own.
-
-The white pieces go first and then the black pieces, and they continue to take turns.
-
-The pieces can move anywhere right now. If the place they move to has a piece, that piece will be killed, even if it is the player's own piece.
-
 ## Instructions
-Your job is to program the game logic that restricts pieces from making illegal moves. You will implement the canMove method for the King, Queen, Bishop, Knight, Rook, and Pawn classes. Here is what the Pawn's canMove method looks like:
+Your can alter the game logic that restricts pieces from making illegal moves. You will implement the canMove method for the King, Queen, Bishop, Knight, Rook, and Pawn classes. Here is what the Pawn's canMove method looks like:
 
 ```
     @Override
